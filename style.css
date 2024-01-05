@@ -250,6 +250,7 @@ section {
   gap: 2rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  flex-wrap: wrap;
 }
 
 .about-details-container {
@@ -312,11 +313,11 @@ section {
 
 .article-container {
   display: flex;
-  flex-direction: row;
-  gap: 2.5rem;
-  justify-content: space-around;
   text-align: initial;
   flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around; 
 }
 
 article {
